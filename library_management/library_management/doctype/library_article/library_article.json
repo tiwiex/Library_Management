@@ -71,8 +71,7 @@
   {
    "fieldname": "route",
    "fieldtype": "Data",
-   "label": "Route",
-   "read_only": 1
+   "label": "Route"
   },
   {
    "default": "0",
@@ -86,7 +85,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2023-05-10 23:27:24.835874",
+ "modified": "2023-05-11 00:25:49.992189",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Article",
