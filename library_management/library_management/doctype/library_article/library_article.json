@@ -69,7 +69,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fetch_from": "library_article.article_name",
    "fieldname": "route",
    "fieldtype": "Data",
    "label": "Route",
@@ -87,7 +86,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2023-05-10 21:58:24.125941",
+ "modified": "2023-05-10 23:27:24.835874",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Article",
