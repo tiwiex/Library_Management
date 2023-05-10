@@ -9,7 +9,8 @@
   "article",
   "library_member",
   "issue",
-  "date"
+  "date",
+  "amended_from"
  ],
  "fields": [
   {
@@ -36,11 +37,21 @@
    "fieldname": "date",
    "fieldtype": "Date",
    "label": "Date"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Library Transaction",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-05-10 15:09:23.826200",
+ "modified": "2023-05-10 15:11:22.574401",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Transaction",
