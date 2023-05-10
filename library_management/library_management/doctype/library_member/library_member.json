@@ -27,7 +27,7 @@
   },
   {
    "fieldname": "full_name",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Full Name",
    "read_only": 1
   },
@@ -44,7 +44,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-05-10 10:42:07.891793",
+ "modified": "2023-05-10 12:23:11.627838",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",
