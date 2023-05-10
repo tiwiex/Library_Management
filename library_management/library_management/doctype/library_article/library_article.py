@@ -3,7 +3,6 @@
 
 # import frappe
 from frappe.model.document import Document
-from frappe.website.website_generator import WebsiteGenerator
 
 class LibraryArticle(Document):
 	def before_save(self):
