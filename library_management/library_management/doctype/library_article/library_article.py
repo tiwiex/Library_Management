@@ -5,4 +5,5 @@
 from frappe.model.document import Document
 
 class LibraryArticle(Document):
-	pass
+	def before_save(self):
+		self.route = f'{self.article_name}'
