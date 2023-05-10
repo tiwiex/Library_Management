@@ -27,7 +27,7 @@
   },
   {
    "fieldname": "full_name",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Full Name",
    "read_only": 1
   },
