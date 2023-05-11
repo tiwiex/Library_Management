@@ -1,6 +1,6 @@
 import frappe
 from frappe.model.document import Document
-from frappe.model.docstatus import DocStatus
+from frappe.model import DocStatus
 
 
 class LibraryMembership(Document):
