@@ -8,4 +8,4 @@ class LibraryArticle(Document):
 	def before_save(self):
 		#self.route = f'{self.article_name} {self.article_name or "taiwo"}'
 		#self.routes = "taiwo"
-		self.set("route", "taiwo")
+		self.set("route", self.article_name)
