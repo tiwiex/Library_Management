@@ -6,4 +6,5 @@ from frappe.model.document import Document
 
 class LibraryArticle(Document):
 	def before_save(self):
-		self.route = f'{self.article_name}'
+		self.route = f'{self.article_name} {self.article_name or "taiwo"}'
+		self.full_name = f'{self.first_name} {self.last_name or ""}'
