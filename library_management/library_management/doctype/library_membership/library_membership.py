@@ -1,8 +1,7 @@
 import frappe
 from frappe.model.document import Document
-from frappe.model.docstatus import DocStatus
 
-
+# https://frappe.school/courses/frappe-framework-tutorial/learn/8.4
 class LibraryMembership(Document):
     # check before submitting this document
     def before_submit(self):
@@ -10,7 +9,7 @@ class LibraryMembership(Document):
             "Library Membership",
             {
                 "library_member": self.library_member,
-                "docstatus": DocStatus.submitted(),
+                "docstatus": 1,
                 # check if the membership's end date is later than this membership's start date
                 "to_date": (">", self.from_date),
             },
